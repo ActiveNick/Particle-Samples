@@ -1,0 +1,21 @@
+{
+    "event": "ConnectTheDots",
+    "url": "https://ctdnlss-ns.servicebus.windows.net/ehdevices/messages",
+    "requestType": "POST",
+    "json": {
+        "subject": "{{s}}",
+        "unitofmeasure": "{{u}}",
+        "measurename": "{{m}}",
+        "value": "{{v}}",
+        "organization": "{{o}}",
+        "displayname": "{{d}}",
+        "location": "{{l}}",
+        "timecreated": "{{SPARK_PUBLISHED_AT}}",
+        "guid": "{{g}}"
+    },
+    "azure_sas_token": {
+        "key_name": "D1",
+        "key": "yrDSYExkzKLZY9uBWELhMyOjVfGOyiiczv8eNAgXM8s="
+    },
+    "mydevices": true
+}

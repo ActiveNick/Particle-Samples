@@ -1,0 +1,21 @@
+{
+    "event": "WeatherIoTHub",
+    "url": "https://connectedhome.azure-devices.net/",
+    "requestType": "POST",
+    "json": {
+        "subject": "{{s}}",
+        "unitofmeasure": "{{u}}",
+        "measurename": "{{m}}",
+        "value": "{{v}}",
+        "organization": "{{o}}",
+        "displayname": "{{d}}",
+        "location": "{{l}}",
+        "timecreated": "{{SPARK_PUBLISHED_AT}}",
+        "guid": "{{g}}"
+    },
+    "azure_sas_token": {
+        "key_name": "iothubowner",
+        "key": "dfePeDicDUmRegwi17Eqh7o0XwbBi8wIpdFNQe817sU="
+    },
+    "mydevices": true
+}

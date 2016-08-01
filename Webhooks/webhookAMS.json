@@ -1,0 +1,17 @@
+{
+    "event": "AMSDemo",
+    "url": "https://mobiledemosjs.azure-mobile.net/tables/particle",
+    "requestType": "POST",
+    "headers": {
+        "Accept": "application/json",
+        "Content-Type": "application/json",
+        "Content-Lenght": "300",
+        "X-ZUMO-APPLICATION": "caiorjBnqOYgOmYdvBzRZQcxAtQFch58"
+    },
+    "json": {
+        "event": "{{event}}",
+        "sensor": "{{sensor}}",
+        "timecreated": "{{SPARK_PUBLISHED_AT}}"
+    },
+    "mydevices": true
+}

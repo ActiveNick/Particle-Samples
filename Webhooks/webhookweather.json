@@ -1,0 +1,23 @@
+{
+    "event": "weatherdata",
+    "url": "https://mobiledemosjs.azure-mobile.net/tables/weathersensors",
+    "requestType": "POST",
+    "headers": {
+        "Accept": "application/json",
+        "Content-Type": "application/json",
+        "Content-Lenght": "300",
+        "X-ZUMO-APPLICATION": "caiorjBnqOYgOmYdvBzRZQcxAtQFch58"
+    },
+    "json": {
+        "subject": "{{s}}", 
+        "unitofmeasure": "{{u}}", 
+        "measurename": "{{m}}", 
+        "value": "{{v}}", 
+        "organization": "{{o}}", 
+        "displayname": "{{d}}", 
+        "location": "{{l}}", 
+        "timecreated": "{{SPARK_PUBLISHED_AT}}", 
+        "guid": "{{SPARK_CORE_ID}}"
+    },
+    "mydevices": true
+}
